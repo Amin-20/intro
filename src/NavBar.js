@@ -4,11 +4,17 @@ import { Navbar, NavbarBrand } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class NavBar extends Component {
-  style = {};
+  style = {
+    position: "absolute",
+    marginLeft:"24%",
+    marginTop:"14px",
+
+    
+  };
 
   render() {
     return (
-      <div>
+      <div style={this.style}>
         <Navbar className="my-1" color="dark" dark>
           <NavbarBrand href="/">
           <FontAwesomeIcon icon={faAlignLeft} />
