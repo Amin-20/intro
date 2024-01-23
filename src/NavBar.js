@@ -16,7 +16,8 @@ export default class NavBar extends Component {
 
   style2={
     backgroundColor:"#47a3b9",
-    padding:"15px"
+    padding:"15px",
+    borderRadius: "10px"
 
   };
 
